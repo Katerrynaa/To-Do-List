@@ -5,7 +5,7 @@ FastAPI ToDo Application
 
 # Description
 
-This is a web application that contains todo tasks. The basic idea is to allow the user to create, view, edit and delete tasks they want to complete. 
+This is a web application that contains todo tasks. The basic idea is to allow the user to create, view, edit and delete tasks they want to complete. Project has a simple authorization.
 
 
 # Installation
