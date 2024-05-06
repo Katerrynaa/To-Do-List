@@ -2,7 +2,19 @@ from fastapi import APIRouter, HTTPException
 from src.schemas import ToDoPydanticModel
 from src.managers import ToDoManager
 
+from src.security import get_current_username
+from typing import Annotated
+from fastapi import Depends
+from fastapi.security import HTTPBasic
+
+
 router = APIRouter()
+
+security = HTTPBasic()
+
+@router.get("/users/me")
+def read_current_user(username: Annotated[str, Depends(get_current_username)]):
+    return {"username": username}
 
 
 @router.post("/create")
