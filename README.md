@@ -1,14 +1,14 @@
-Project's title 
+# Project's title 
 
 FastAPI ToDo Application
 
 
-Description
+# Description
 
 This is a web application that contains todo tasks. The basic idea is to allow the user to create, view, edit and delete tasks they want to complete. 
 
 
-Installation
+# Installation
 
 1.Clone the repository 
 
@@ -48,7 +48,7 @@ make install
 
 ```
 
-Run
+# Run
 
 Run fastapi server 
 
@@ -58,7 +58,7 @@ make run
 
 ```
 
-Tests
+# Tests
 
 The project has tests to check functionality API
 
