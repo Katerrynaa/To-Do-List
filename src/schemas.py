@@ -20,13 +20,3 @@ class Message(BaseModel):
         orm_mode = True
 
 
-class UserBase(BaseModel):
-    username: str
-    email: str
-    password: str
-
-class UserOut(UserBase):
-    pass
-
-class UserAuth(UserBase):
-    pass
